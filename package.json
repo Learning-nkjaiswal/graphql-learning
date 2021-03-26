@@ -1,0 +1,22 @@
+{
+  "name": "graphql-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "(cd react-app; yarn build)",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.21.2",
+    "bootstrap": "^4.6.0",
+    "create-react-app": "^4.0.3",
+    "express": "^5.0.0-alpha.7",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "react-bootstrap": "^1.5.2"
+  }
+}
